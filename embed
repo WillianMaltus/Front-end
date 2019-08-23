@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head> 
+    <meta charset="utf-8">
+    <title>Livro HTML5 do maujor</title>
+  </head>
+  <body>
+        <embed src="coca-cola.svg" type="image/svg+xml" width="400" height="400">
+            <embed src="facebook.svg" type="image/svg+xml" width="400" height="400">
+                <embed src="flamengo.svg" type="image/svg+xml" width="400" height="400">
+        </body>
+
+</html>
