@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<dialog>
+	<h3> Janela Modal</h3>
+	<p>Conteudo da janela modal</p>
+	<button id="fechar">X</button>
+</dialog>
+<button id="abrir">Abrir janela modal</button>
+
+	<script>
+		var janela = document.querySelector('dialog');
+		document.querySelector('#abrir').onclick = function(){
+			janela.show();
+		};
+		document.querySelector('#fechar').onclick = function() {
+			janela.close();
+		};
+</script>
+</body>
+</html>
