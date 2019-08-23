@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<body>
+    <h2>HTML forms</h2>
+    <form action="/action_page.php">
+    nome: <br>
+    <input type="text" name="nome">
+    <br>
+    endereco:<br>
+    <input type="text" name="endereco">
+    <br>
+    email: <br>
+    <input type="text" name="email">
+    <br>
+    telefone: <br>
+    <input type="text" name="telefone">
+    <br>
+    instituicao: <br>
+    <input type="text" name="instituicao">
+    <br>
+    sexo: <br>
+    <input type="text" name="sexo">
+    <br>
+    pais: <br>
+    <input type="text" name="pais">
+    <br><br>
+    <input type="submit" value="vai">
+    </form>
+    <p>If you click the "submit" button, the form-data will be sent to a page called" /action_page.php"</p>
+</body>
+</html>
