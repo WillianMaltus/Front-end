@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"> 
+<link rel="stylesheet" type="text/css" href="front.css"> 
+<title></title>
+</head>
+<html>
+<body>
+<style>    
+div {
+    background: yellow;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+</style>
+<a href="http://www.w3schools.com/html" accesskey="h">HTMl tutorial</a></br> 
+<a href="http://www.w3schools.com/css" accesskey="c">css tutorial</a>   
+<p>O atributo accesskey especifica uma tecla de atalho para ativar / focalizar um element.
+</p>
+<p><strong>Nota:</strong> Atalhos para diferentes browsers:</p>
+<ul>
+	<li>IE, Chrome, Safari, Opera 15+: [ALT] + <em>accesskey</em></li>
+	<li>Opera prior version 15: [SHIFT] [ESC] + <em>accesskey</em></li>
+	<li>Firefox: [ALT] [SHIFT] + <em>accessskey</em</li>
+</ul>
+<p contenteditable="true">Esse paragrafo é editavel. clique para editar.</p>
+<p contenteditable="false">Esse paragrafo não é editavel.</p>
+<div>
+
+</div>
+<body>
+</HTMl>
