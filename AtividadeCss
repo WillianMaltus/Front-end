@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <title>Pagina</title>
+<head>
+<link rel="stylesheet" href="Estilo.css"/>
+<style> p{
+    color: red;
+}</style>
+</head>
+<body>
+<p style="color: green">O Clube de Regatas do Flamengo é uma agremiação poliesportiva brasileira com sede na cidade do Rio de Janeiro. Fundado no bairro de mesmo nome para disputas de remo em 17 de novembro de 1895, tornou-se um dos clubes mais bem-sucedidos e populares do esporte brasileiro, especialmente pelo futebol. <p>
+</body>
+</html
+
+css:
+
+p{
+    color: blue;
+}
