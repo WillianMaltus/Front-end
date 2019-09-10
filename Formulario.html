@@ -1,0 +1,61 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <link rel="stylesheet" href="estilo.css"/>
+        <style>
+                #email, #telefone, #sexo{
+                    color: blue;
+                }
+            </style>
+    </head>
+     
+<body>
+
+<form action="/action_page.php" method="POST">
+	<p id="nome">Usuário nome:</p>
+	<input id="nome" type="text" name="nome">
+	<br><br>
+	
+	<p id="senha">Usuário senha:</p>
+	<input id="senha" type="password" name="senha"><br>
+    <br><br>
+    
+	<p id="telefone">Telefone:</p>
+	<input id="telefone" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+	<br><br>
+	     
+    <p id="email"> Email:</p>
+	<input id="email" type="email" name="email">
+	<br><br>
+	
+	<p id="sexo"> Sexo: </p>
+	<input id="sexo" type="radio" name="gender" value="Masculino">
+	<p id="sexo"> Masculino</p>
+	<input id="sexo" type="radio" name="gender" value="Feminino">
+	<p id="sexo">Feminino</p> 
+	<input id="sexo" type="radio" name="gender" value="Outro">
+	<p id="sexo"> Outro</p>
+	<br><br>
+	
+	<p style="color: green">Idade:</p>
+	<input type="number" name="idade" style="color: green">
+	<br><br>
+	
+	<p style="color: green"> Curso:</p>
+	<input type="checkbox" name="curso" value="Sistemas" style="color: green">Sistemas para internet<br>
+	<input type="checkbox" name="curso" value="Redes" style="color: green">Redes<br>
+	<input type="checkbox" name="curso" value="Engenharia" style="color: green">Engenharia da Computação<br>
+	<br>
+	
+	<p style="color: green"><h2>Você gosta do seu curso?</h2></p>
+	<input type="range" name="satisfação" min="1" max="10" step="1" value="100">
+	<br><br>
+	
+	<input type="submit">
+</form>
+
+
+
+</body>
+</html>
